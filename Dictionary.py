@@ -1,0 +1,14 @@
+my={}
+my_dik={1:"apple",2:"banana"}
+my_dic={"Name":"Shivam","Age":14,"Class":7}
+print(my_dic["Name"])
+print(my_dic.get('Age'))
+my_dic["Age"]=15
+print(my_dic)
+my_dic["Address"]="Prayagraj"
+print(my_dic)
+my_dic.pop("Address")
+print(my_dic)
+print("Address:",my_dic.get('Address'))
+my_dic.clear
+print(my_dic)
